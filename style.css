@@ -1,0 +1,211 @@
+.banner-main {
+    padding: 60px;
+    margin: 0px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.container-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
+  }
+
+.slider-banner {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.child-text {
+    display: flex;
+    font-style: italic;
+    padding: 25px;
+}
+
+.contact-us {
+    background-color: gainsboro;
+    padding: 50px;
+
+}
+
+.p-cs {
+    padding-bottom: 50px;
+}
+
+.info-box {
+    position: relative;
+    padding-left: 115px;
+    padding-top: 10px;
+}
+.thumb {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 82px;
+    width: 82px;
+}
+      
+.aldi-photo {
+    border: 6px solid #e5e6fa;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    box-shadow: 0 45px 45px rgba(147, 147, 147, 0.35);
+}
+      
+.name {
+    position: relative;
+    display: block;
+    font-size: 21px;
+    line-height: 1.2em;
+    color: #382c4d;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: "Niramit", sans-serif;
+}
+      
+.designation {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Muli", sans-serif;
+}
+
+.terms-text {
+    background-color: whitesmoke;
+}
+
+.hr-info {
+    border: 2px solid grey;
+    width: 30%;
+    margin: 30px;
+}
+
+.terms-points {
+    display: grid;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+}
+
+li {
+    padding: 10px;
+}
+
+.number {
+    position: relative;
+}
+
+.text {
+    display: block;
+    position: relative;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+.package-pad {
+    padding: 50px;
+}
+
+.package {
+    color: white;
+    padding: 50px;
+    text-align: center;
+    background-color: #382c4d;
+}
+
+.hr-package {
+    width: 25%;
+    margin: auto;
+    border: 2px solid grey;
+}
+
+.img-footer {
+height: 70px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-footer {
+    padding: 30px 10px 30px 10px;
+}
+
+@media (max-width:640px) {
+    .container-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .main-foto {
+        height: 230px;
+    }
+
+    .terms-text {
+        padding: 20px;
+    }
+}
